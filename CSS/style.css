@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #cdeccd, #a3d9a5, #f0fff0);
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.header {
+    background: linear-gradient(90deg, #007BFF, #0056b3);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section {
+    margin: 20px 0;
+    background-color: #fdfdfd;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.divider {
+    border-top: 2px solid #007BFF;
+    margin: 20px 0;
+}
+
+.skills h3 {
+    color: #007BFF;
+}
