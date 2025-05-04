@@ -2,22 +2,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /* enlever le padding pour un fond plein écran */
-    min-height: 100vh;
-    /* prend toute la hauteur de la fenêtre */
     background-image: url('../images/foret.jpeg');
-    /* chemin vers l'image sans accent */
-    background-size: cover;
-    /* l’image couvre tout l’écran */
-    background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    /* répète verticalement */
+    background-position: left, right;
+    background-size: auto 100%;
+    /* ajuster la hauteur de l'image à 100% */
     background-attachment: fixed;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left center, right center;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
-    background: white;
+    background: rgba(255, 255, 255, 0.95);
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
