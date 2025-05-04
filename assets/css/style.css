@@ -2,15 +2,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('../images/foret.jpeg');
-    background-repeat: repeat-y;
-    /* répète verticalement */
-    background-position: left, right;
-    background-size: auto 100%;
-    /* ajuster la hauteur de l'image à 100% */
-    background-attachment: fixed;
+    min-height: 100vh;
+    background-color: #ffffff;
+
+    background-image: url('../images/foret.jpeg'), url('../images/foret.jpeg');
     background-repeat: no-repeat, no-repeat;
     background-position: left center, right center;
+    background-size: 20vw 100%, 20vw 100%;
+    /* chaque image prend 20% de largeur */
+    background-attachment: fixed, fixed;
 }
 
 .container {
