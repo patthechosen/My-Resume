@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-image: url('../images/foret.jpeg');
+    background-image: url('assets/images/foret.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
