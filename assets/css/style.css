@@ -3,66 +3,35 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: #ffffff;
-
-    background-image: url('../images/foret.jpeg'), url('../images/foret.jpeg');
+    background-color: #2e2e2e;
+    /* gris foncé */
+    background-image: url('../images/foret.jpeg');
     background-repeat: no-repeat, no-repeat;
     background-position: left center, right center;
-    background-size: 20vw 100%, 20vw 100%;
-    /* chaque image prend 20% de largeur */
+    background-size: 40vw 100%, 20vw 100%;
     background-attachment: fixed, fixed;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.95);
+    background: #1e1e1e;
+    /* sombre */
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    color: #f0f0f0;
+    /* texte clair */
 }
 
 h1, h2, h3 {
-    color: #333;
-}
-
-.header {
-    background: linear-gradient(90deg, #007BFF, #0056b3);
-    color: white;
-    padding: 15px;
-    border-radius: 8px;
-    text-align: center;
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-.photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
-    margin: 0 auto 20px;
-    display: block;
-}
-
-.contact-info {
-    text-align: center;
-    margin-bottom: 30px;
+    color: #33cfff;
 }
 
 section {
     margin: 20px 0;
-    background-color: #fdfdfd;
+    background-color: #2a2a2a;
+    /* légèrement plus clair que le container */
     padding: 15px;
     border-radius: 6px;
-}
-
-.divider {
-    border-top: 2px solid #007BFF;
-    margin: 20px 0;
-}
-
-.skills h3 {
-    color: #007BFF;
 }
