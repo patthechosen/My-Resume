@@ -3,51 +3,102 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: #2e2e2e;
-    /* gris foncé */
-    background-image: url('../images/foret.jpeg');
-    background-repeat: no-repeat, no-repeat;
-    background-position: left center, right center;
-    background-size: 40vw 100%, 20vw 100%;
-    background-attachment: fixed, fixed;
+    background-color: #414244;
+    /* Couleur de fond de secours */
 }
-
-.name-box {
-    background-color: #007BFF;
-    /* Couleur de fond bleue */
-    color: white;
-    /* Couleur du texte en blanc */
-    padding: 10px;
-    /* Espacement intérieur */
-    border-radius: 5px;
-    /* Coins arrondis */
-    text-align: center;
-    /* Centrer le texte dans le cadre */
-    display: inline-block;
-    /* Cela permet au fond d'épouser le texte */
-}
-
 
 .container {
     max-width: 800px;
-    margin: 0 auto;
-    background: #1e1e1e;
-    /* sombre */
-    padding: 30px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f1eeeef2;
+    /* Légèrement transparent */
     border-radius: 12px;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
-    color: #f0f0f0;
-    /* texte clair */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
 }
 
 h1, h2, h3 {
-    color: #33cfff;
+    color: #333;
+}
+
+.header {
+    background: linear-gradient(90deg, #007BFF, #0056b3);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 section {
     margin: 20px 0;
-    background-color: #2a2a2a;
-    /* légèrement plus clair que le container */
-    padding: 15px;
+}
+
+.profile-box {
+    background-color: #007BFF;
+    /* Couleur de fond bleue */
+    color: white;
+    /* Couleur du texte */
+    padding: 12px;
+    /* Espacement intérieur */
     border-radius: 6px;
+    /* Coins arrondis */
+    text-align: center;
+    /* Centre le texte */
+    margin: 0 auto 16px;
+    /* Centre la boîte avec un espacement en bas */
+    width: 60%;
+    /* Ajustez la largeur selon vos besoins */
+}
+
+.profile1-box {
+    background-color: #007BFF;
+    /* Couleur de fond bleue */
+    color: white;
+    /* Couleur du texte */
+    padding: 12px;
+    /* Espacement intérieur */
+    border-radius: 6px;
+    /* Coins arrondis */
+    text-align: center;
+    /* Centre le texte */
+    margin: 0 auto 16px;
+    /* Centre la boîte avec un espacement en bas */
+    width: 60%;
+    /* Ajustez la largeur selon vos besoins */
+}
+
+
+.divider {
+    border-top: 2px solid #007BFF;
+    /* Ligne de séparation */
+    margin: 20px 0;
+}
+
+.skills h3 {
+    color: #007BFF;
+    /* Couleur pour les titres de compétences */
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    /* Aligner le texte des listes à gauche */
 }
