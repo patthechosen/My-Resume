@@ -102,3 +102,39 @@ ul {
     text-align: left;
     /* Aligner le texte des listes à gauche */
 }
+
+.social-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.github-btn {
+    background-color: #333;
+}
+
+.github-btn:hover {
+    background-color: #555;
+}
+
+.linkedin-btn {
+    background-color: #0077b5;
+}
+
+.linkedin-btn:hover {
+    background-color: #005582;
+}
+
+.social-buttons i {
+    margin-right: 8px;
+}
