@@ -9,6 +9,7 @@
     <title>RESUME</title>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+  <script src="assets/js/script.js" defer></script>
   <body>
     <div class="container">
       <h1 class="header">
@@ -33,8 +34,16 @@
           <i class="fab fa-linkedin"></i> LinkedIn
         </a>
       </div>
-
-      <section>
+      <nav class="dropdown-nav">
+        <button id="menu-toggle">Menu ▼</button>
+        <ul id="menu" class="hidden">
+          <li><a href="#Profil">Professional Profil</a></li>
+          <li><a href="#Experience">Professional Expérience</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#Education">Education</a></li>
+        </ul>
+      </nav>
+      <section id="Profil">
         <div class="profile-box">
           <h2>Professional Profile</h2> <!-- Titre dans le cadre bleu -->
         </div>
@@ -52,10 +61,11 @@
           the United States for any employer.
         </p>
       </section>
-      <section>
+      <section id="Experience">
         <div class="profile1-box">
           <h2>Professional Experience</h2> <!-- Titre dans le cadre bleu -->
         </div>
+
         <div class="job">
           <h3>Network and systems administrator - Canal2 International</h3>
           <p><strong>October 2013 - September 2024</strong></p>
@@ -77,32 +87,35 @@
         </div>
         <div class="divider"></div>
 
-        <section>
+        <section id="Education">
           <h2>Education</h2>
           <p><strong>Bachelor’s Degree in Network engineering in
               progress</strong></p>
-          <h2>Skills</h2>
-          <div class="skills">
-            <h3>Technical</h3>
-            <ul>
-              <li>Windows server, mikrotik, cisco router</li>
-              <li>CI/CD pipeline, cloudformation</li>
-              <li>Node.js, Python</li>
-              <li>Docker, Kubernetes, Ansible, Terraform,
-                Jenkins, Prometheus.</li>
-              <li>Linux, Bash</li>
-              <li>Git, GitHub</li>
-            </ul>
-          </div>
-          <div class="skills">
-            <h3>Personal</h3>
-            <ul>
-              <li>Communication</li>
-              <li>Teamwork</li>
-              <li>Time Management</li>
-              <li>Problem Solving</li>
-            </ul>
-          </div>
+          <section id="skills">
+
+            <h2>Skills</h2>
+            <div class="skills">
+              <h3>Technical</h3>
+              <ul>
+                <li>Windows server, mikrotik, cisco router</li>
+                <li>CI/CD pipeline, cloudformation</li>
+                <li>Node.js, Python</li>
+                <li>Docker, Kubernetes, Ansible, Terraform,
+                  Jenkins, Prometheus.</li>
+                <li>Linux, Bash</li>
+                <li>Git, GitHub</li>
+              </ul>
+            </div>
+            <div class="skills">
+              <h3>Personal</h3>
+              <ul>
+                <li>Communication</li>
+                <li>Teamwork</li>
+                <li>Time Management</li>
+                <li>Problem Solving</li>
+              </ul>
+            </div>
+          </section>
         </section>
       </div>
     </body>
