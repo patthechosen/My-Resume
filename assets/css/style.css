@@ -187,3 +187,38 @@ body::before {
 html {
     scroll-behavior: smooth;
 }
+
+.skills-toggle {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.skills-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.skills-btn:hover {
+    background-color: #0056b3;
+}
+
+.skills-content {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    text-align: left;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
